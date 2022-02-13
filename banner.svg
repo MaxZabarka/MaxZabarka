@@ -1,0 +1,120 @@
+<!-- Credit : https://github.com/sindresorhus/css-in-readme-like-wat -->
+<svg fill="none" viewBox="0 0 800 800" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient -->
+
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes fadeIn {
+          0% {
+            opacity:0;
+          }
+
+          100% {
+            opacity:1;
+          }
+        }
+
+        @keyframes gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+
+          50% {
+            background-position: 100% 50%;
+          }
+
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+        @keyframes animateIn {
+          0% {
+            clip-path: inset(50% 50% 50% 50%);
+          }
+
+          100% {
+            clip-path: inset(0% 0% 0% 0%);
+          }
+        }
+
+        @keyframes fade-in {
+          0% {
+            opacity 0;
+          }
+
+          100% {
+            opacity: 1;
+          }
+        }
+
+        * {
+          font-family:
+            system-ui,
+            -apple-system,
+            'Segoe UI',
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif,
+            'Apple Color Emoji',
+            'Segoe UI Emoji';
+        }
+
+        .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 0;
+          width: 100%;
+          height: 400px;
+          background: linear-gradient(45deg,
+              rgba(0, 0, 0, 1) 0%,
+              rgba(72, 0, 154, 1) 29%,
+              rgba(154, 0, 148, 1) 69%,
+              rgba(114, 0, 154, 1) 83%);
+          background-size: 600% 600%;
+          animation: gradientBackground 10s ease infinite;
+          border-radius: 10px;
+          color: white;
+          text-align: center;
+          clip-path: inset(50% 50% 50% 50%);
+          animation: 2s ease 0.5s animateIn forwards,
+            gradient 10s ease infinite;
+           
+        }
+
+        h1 {
+          font-size: 50px;
+          line-height: 1.2;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+
+        .text {
+          fill: url(#gr-simple);
+          font-size: 40px;
+          font-weight: bold;
+          opacity:0;
+          animation: 1s ease 2.2s fadeIn forwards
+        }
+      </style>
+      <div class="container">
+        <h1>Max Zabarka</h1>
+      </div>
+    </div>
+
+  </foreignObject>
+
+  <linearGradient id="gr-simple" x1="0" y1="0" x2="100%" y2="100%">
+    <stop stop-color="#ff0088" offset="10%" />
+    <stop stop-color="#9000ff" offset="90%" />
+  </linearGradient>
+
+  <!-- Text -->
+  <text text-anchor="middle" x="50%" y="450" class="text">
+    Hi there!
+  </text>
+</svg>
