@@ -9,6 +9,8 @@ I am passionate about making beautiful and functional products that improve the 
 
 I have skills and experience in web development, 3D design, low-level systems, and various other kinds of software development. I’m also an athlete, photographer, coach, and more.
 
+### 👉 [My portfolio](https://max.zabarka.com)
+
 <img src="tech.svg"/>
 
 ---
