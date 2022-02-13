@@ -1,0 +1,20 @@
+<svg fill="none" width="800" height="60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      fill: url(#gr-simple);
+      font-size: 40px;
+      font-weight: bold;
+      opacity: 0;
+      animation: 1s ease 2.2s fadeIn forwards
+    }
+  </style>
+  <linearGradient id="gr-simple" x1="0" y1="0" x2="100%" y2="100%">
+    <stop stop-color="#ff0088" offset="0%" />
+    <stop stop-color="#9000ff" offset="100%" />
+  </linearGradient>
+
+  <!-- Text -->
+  <text text-anchor="left" x="0" y="50" class="text">
+    About
+  </text>
+</svg>
