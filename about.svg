@@ -21,7 +21,7 @@
             'Apple Color Emoji',
             'Segoe UI Emoji';
       fill: url(#gr-simple);
-      font-size: 40px;
+      font-size: 2rem;
       font-weight: bold;
       opacity: 0;
       animation: 1s ease 2.2s fadeIn forwards
