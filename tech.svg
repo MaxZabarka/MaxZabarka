@@ -1,4 +1,4 @@
-<svg viewBox="0 0 800 60" fill="none" width="800" height="60" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 60" fill="none" width="200" height="60" xmlns="http://www.w3.org/2000/svg">
   <style>
             @keyframes fadeIn {
           0% {
@@ -21,7 +21,7 @@
             'Apple Color Emoji',
             'Segoe UI Emoji';
       fill: url(#gr-simple);
-      font-size: 32px;
+      font-size: 2rem;
       font-weight: bold;
       opacity: 0;
       animation: 1s ease 2.2s fadeIn forwards
